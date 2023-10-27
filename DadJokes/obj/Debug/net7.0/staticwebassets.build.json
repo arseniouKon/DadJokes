@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HZ8pJXqEeYfe+xc+hhvcIg1KeqrRO1IeyTUvkPRz22c=",
+  "Hash": "h8yJ13A91b4y6zzkWhDi3id9uObWxnuxduRxELHK2P8=",
   "Source": "DadJokes",
   "BasePath": "_content/DadJokes",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\arseniouKon\\Desktop\\MyPROJECTS\\DadJokes\\DadJokes\\wwwroot\\images\\yao_ming.png",
+      "SourceId": "DadJokes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arseniouKon\\Desktop\\MyPROJECTS\\DadJokes\\DadJokes\\wwwroot\\",
+      "BasePath": "_content/DadJokes",
+      "RelativePath": "images/yao_ming.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\yao_ming.png"
     },
     {
       "Identity": "C:\\Users\\arseniouKon\\Desktop\\MyPROJECTS\\DadJokes\\DadJokes\\wwwroot\\js\\site.js",

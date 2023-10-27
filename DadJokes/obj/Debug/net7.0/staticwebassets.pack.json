@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\arseniouKon\\Desktop\\MyPROJECTS\\DadJokes\\DadJokes\\wwwroot\\images\\yao_ming.png",
+      "PackagePath": "staticwebassets\\images\\yao_ming.png"
+    },
+    {
       "Id": "C:\\Users\\arseniouKon\\Desktop\\MyPROJECTS\\DadJokes\\DadJokes\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

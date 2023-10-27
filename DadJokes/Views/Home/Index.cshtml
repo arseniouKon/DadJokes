@@ -2,7 +2,38 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to DadJokes</h1>
-    <p>Is it a joke? Did your dad laugh? Then here is the place!</p>
-</div>
+<style>
+    body {
+        background-color: #f0f8ff;
+        /* font-family: Arial, sans-serif; */
+        text-align: center;
+        overflow-x: hidden;
+        padding: 50px;
+    }
+
+    /* p {
+        color: #000080;
+    } */
+
+    .welcome-image {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+    }
+</style>
+
+<html>
+    <div style="margin-bottom: 30px; 
+                font-size:80px; 
+                color: #000080;">
+        <p>Welcome to DadJokes</p>
+    </div>
+
+    <div style="margin-bottom: 50px;">
+        <p>Is it a joke? Did your dad laugh? Then here is the place!</p>
+    </div>
+
+    <div>
+        <img src="~/images/yao_ming.png" alt="Welcome Image" class="welcome-image" />
+    </div>
+</html>

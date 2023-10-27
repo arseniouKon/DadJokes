@@ -1,7 +1,4 @@
 /* _content/DadJokes/Views/Shared/_Layout.cshtml.rz.scp.css */
-/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
 a.navbar-brand[b-1m1k158cf4] {
   white-space: normal;
   text-align: center;
@@ -10,6 +7,10 @@ a.navbar-brand[b-1m1k158cf4] {
 
 a[b-1m1k158cf4] {
   color: #0077cc;
+}
+
+h1[b-1m1k158cf4] {
+    color: #000080;
 }
 
 .btn-primary[b-1m1k158cf4] {

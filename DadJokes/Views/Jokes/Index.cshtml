@@ -1,35 +1,39 @@
 ﻿@model IEnumerable<DadJokes.Models.Joke>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Jokes";
+    int number = 0;
 }
 
-<h1>Index</h1>
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>
+                <h1>"Jokes" list</h1>
+            </th>
+            <th></th>
+        </tr>
+    </thead> 
+
+    <tbody>
+        @foreach (var item in Model) {
+            number++;
+            <tr>
+                <td>
+                    @number. @Html.DisplayFor(modelItem => item.JokeQuestion)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" style="margin-right: 100px;">Answer</a> @* |
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> *@
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.JokeQuestion)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.JokeQuestion)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
