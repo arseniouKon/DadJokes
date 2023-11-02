@@ -26,7 +26,7 @@ h1[b-1m1k158cf4] {
 }
 
 .border-top[b-1m1k158cf4] {
-  border-top: 1px solid #e5e5e5;
+  border-top: 3px solid #e5e5e5;
 }
 .border-bottom[b-1m1k158cf4] {
   border-bottom: 1px solid #e5e5e5;
@@ -47,4 +47,13 @@ button.accept-policy[b-1m1k158cf4] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+  text-align: center;
+}
+
+.footer-div[b-1m1k158cf4] {
+    height: 62px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
