@@ -1,16 +1,18 @@
 ﻿a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
-
-a {
-  color: #0077cc;
-}
-
-h1 {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
     color: #000080;
+    text-decoration-color: #000080;
 }
+
+/*a {
+  color: #0077cc;
+}*/
+
+/*h1 {
+    color: #000080;
+}*/
 
 .btn-primary {
   color: #fff;
@@ -55,4 +57,33 @@ button.accept-policy {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.nav-item:is(:link, :active, :visited).active {
+    opacity: 1;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.3s;
+    height: 4px;
+    width: 100%;
+    background-color: #000080;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    pointer-events: none;
+}
+
+.nav-item:hover::after {
+    opacity: 1;
+}
+
+.nav-item.active::after {
+    opacity: 1;
 }
