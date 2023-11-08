@@ -1,0 +1,28 @@
+﻿.nav-item {
+    position: relative;
+}
+
+.nav-item::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.3s;
+    height: 4px;
+    width: 100%;
+    background-color: #000080;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    pointer-events: none;
+}
+
+.nav-item:hover::after {
+    opacity: 1;
+}
+
+.nav-item:focus::after {
+    opacity: 1;
+}
+
+.nav-item.active::after {
+    opacity: 1;
+}

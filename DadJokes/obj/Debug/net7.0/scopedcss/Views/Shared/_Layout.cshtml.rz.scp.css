@@ -1,16 +1,18 @@
 a.navbar-brand[b-1m1k158cf4] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
-
-a[b-1m1k158cf4] {
-  color: #0077cc;
-}
-
-h1[b-1m1k158cf4] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
     color: #000080;
+    text-decoration-color: #000080;
 }
+
+/*a {
+  color: #0077cc;
+}*/
+
+/*h1 {
+    color: #000080;
+}*/
 
 .btn-primary[b-1m1k158cf4] {
   color: #fff;
@@ -25,7 +27,7 @@ h1[b-1m1k158cf4] {
 }
 
 .border-top[b-1m1k158cf4] {
-  border-top: 1px solid #e5e5e5;
+  border-top: 3px solid #e5e5e5;
 }
 .border-bottom[b-1m1k158cf4] {
   border-bottom: 1px solid #e5e5e5;
@@ -46,4 +48,42 @@ button.accept-policy[b-1m1k158cf4] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+  text-align: center;
+}
+
+.footer-div[b-1m1k158cf4] {
+    height: 62px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-item:is(:link, :active, :visited).active[b-1m1k158cf4] {
+    opacity: 1;
+}
+
+.nav-item[b-1m1k158cf4] {
+    position: relative;
+}
+
+.nav-item[b-1m1k158cf4]::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.3s;
+    height: 4px;
+    width: 100%;
+    background-color: #000080;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    pointer-events: none;
+}
+
+.nav-item:hover[b-1m1k158cf4]::after {
+    opacity: 1;
+}
+
+.nav-item.active[b-1m1k158cf4]::after {
+    opacity: 1;
 }
