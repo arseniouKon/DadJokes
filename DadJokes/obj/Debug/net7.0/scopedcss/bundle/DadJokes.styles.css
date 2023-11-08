@@ -110,9 +110,9 @@ button.accept-policy[b-1m1k158cf4] {
     opacity: 1;
 }
 
-/*.nav-item:focus::after {
+.nav-item:focus[b-1olok13sov]::after {
     opacity: 1;
-}*/
+}
 
 .nav-item.active[b-1olok13sov]::after {
     opacity: 1;
